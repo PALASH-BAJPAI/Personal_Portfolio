@@ -1,0 +1,66 @@
+.skills {
+    padding:  4rem 0 5rem 0;
+}
+
+.logo-box{
+    max-width: 100%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+    background: white;
+}
+
+.logo-box{
+    font-size: 20px;
+    box-shadow: 4px 9px 6px rgba(107, 107, 107,0.2);
+}
+
+.logo-box:hover{
+    box-shadow: 5px 10px 10px rgba(107, 107, 107,0.4);
+}
+
+.logo-box img{
+    height: 100%;
+}
+
+.logo-box img:hover{
+    filter: grayscale(120);
+}
+
+
+
+.heading-line::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: #9926f0;
+}
+  
+.heading-line::after {
+    content: "";
+    width: 2rem;
+    padding-top: 0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: #9926f0;
+}
+
+.subheading{
+    font-weight: 500;
+    font-size: 6rem;
+    display: block;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    color: #f67979;
+    position: relative;
+    line-height: 1;
+    font-family: "Lovers Quarrel", cursive;
+    margin-bottom: -20px;
+    z-index: -1;
+}

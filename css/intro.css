@@ -1,0 +1,76 @@
+.main-title{
+    font-size: 4.5rem;
+}
+.title-2{
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro-section {
+    width: 100%;
+    padding: 5rem 0 0 0;
+    background:linear-gradient(to right, rgba(153, 38, 240,1), rgba(209, 34, 227,1));
+}
+
+.image-box{
+    transform: scale(0.7);
+    position: relative;
+}
+
+.image-box svg{
+    position: absolute;
+    z-index: -1;
+    transform: scale(1.2);
+}
+
+         
+.download-button {
+    background-image: linear-gradient(to right,  rgba(153, 38, 240,1) 0%, rgba(209, 34, 227,1)  51%,  rgba(153, 38, 240,1)  100%);
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 3px 5px 3px rgb(100, 15, 165);
+    border-radius: 10px;
+    border: rgb(181, 91, 250) 1px solid;
+    display: block;
+  }
+
+
+.download-button:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.download-button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.download-gif{
+    width: 1.5rem;
+    height: 1.5rem;
+    filter:invert(1);
+    mix-blend-mode:lighten;
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
+
+.open-to-work{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    background-color: springgreen;
+    border-radius: 100%;
+    box-shadow: 1px 1px 8px rgba(217, 249, 162, 0.662),-1px -1px 8px rgba(217, 249, 162, 0.662),-1px 1px 8px rgba(217, 249, 162, 0.662),1px -1px 8px rgba(217, 249, 162, 0.662);
+}

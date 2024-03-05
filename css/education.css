@@ -1,0 +1,42 @@
+.point1 img {
+    float: left;
+    padding: 0 10px;
+}
+
+.point1 p {
+    left: 10%;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.content2 {
+    color: black;
+    font-style:bold;
+}
+
+.content1 {
+    color: #9926f0;
+    font-weight: 500;
+}
+
+.point1 .content3{
+    font-size: 1em;
+}
+.grow {
+     transition: all .2s ease-in-out;
+     padding:5px;
+     margin:5px;
+      }
+.grow:hover { transform: scale(1.1);
+}
+
+.edu hr{
+    border: none;
+    border-top: 1.2px dashed #151414;
+    color: #fff;
+    background-color: #fff;
+    height: 2px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin: auto;
+}

@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palash Bajpai</title>
+  <!-- CSS sheets -->
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/intro.css">
+  <link rel="stylesheet" type="text/css" href="css/skills.css">
+  <link rel="stylesheet" type="text/css" href="css/education.css">
+  <link rel="stylesheet" type="text/css" href="css/achievements.css">
+
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- assets  -->
+  <link rel="icon" type="image/png" href="assets/mylogo.png" />
+  <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+</head>
+
+<body>
+
+  <img src="assets/background.jpg" alt="girl coding" class="background">
+  <!--  THE NAVBAR SECTION   -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top menu">
+    <div class="container">
+      <a class="navbar-brand nav-link" href="">
+        <img src="assets/logo.png" alt="logo image" class="logo-image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievemets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a>
+            <!-- <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="#contact">CONNECT</a> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--  THE INTRO SECTION   -->
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <div class="col-md-6 intros text-start">
+          <p class="fs-1">
+            <span class="main-title"><b>नमस्ते , I'm Palash</b> </span><br>
+          <p class="fs-4">
+            <span class="title-2">Python coder + web developer</span>
+            ,who excel in applying knowledge to tackle real-world problems, constantly honing my skills and rapidly adapting to stay current in my field.
+          </p>
+          </p>
+          <button class="download-button" type="submit" onclick="window.open('assets/resume/Palash_Bajpai.pdf')">
+          My Resume  <img class="download-gif" src="assets/downloading.gif"/>
+          </button>
+        </div>
+        <div class="col-md-6 intros text-end">
+          <div class="image-box">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg"
+              transform="rotate(-78)" style="opacity: 1;" filter="blur(0.8px)">
+              <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" style="stop-color: rgb(153, 38, 240);"></stop>
+                  <stop offset="100%" style="stop-color: rgb(239, 98, 159);"></stop>
+                </linearGradient>
+              </defs>
+              <path id="blob" fill="url(#gradient)" style="opacity: 0.43;">
+                <animate attributeName="d" dur="24.8s" repeatCount="indefinite"
+                  values="M453.70516,317.0107Q433.36186,384.02139,362.52423,381.146Q291.6866,378.27061,242.8433,399.93801Q194,421.60541,117.08118,412.14317Q40.16237,402.68093,64.29201,326.34046Q88.42165,250,109.0107,206.32693Q129.59975,162.65387,148.64317,78.76495Q167.6866,-5.12397,241.8433,20.74072Q316,46.60541,350.8433,99.17023Q385.6866,151.73505,429.86753,200.86753Q474.04846,250,453.70516,317.0107Z;M424.84079,321.86371Q447.86386,393.72743,384.56836,431.15935Q321.27286,468.59128,248.86371,472.84107Q176.45457,477.09086,148.84107,410.1135Q121.22757,343.13614,67.95457,296.56807Q14.68157,250,76.45485,209.5685Q138.22813,169.13699,166.2505,123.59142Q194.27286,78.04585,249.70464,79.81828Q305.13643,81.59072,362.47721,103.93179Q419.818,126.27286,410.81786,188.13643Q401.81772,250,424.84079,321.86371Z;M428.88107,298.41731Q382.87896,346.83463,343.6411,381.94757Q304.40324,417.06052,249.73188,417.66327Q195.06052,418.26602,121.90324,407.33463Q48.74595,396.40324,42.90922,323.20162Q37.07249,250,50.04223,182.03624Q63.01197,114.07249,129.2076,98.49191Q195.40324,82.91133,251.0746,78.83673Q306.74595,74.76214,356.50598,105.64321Q406.26602,136.52427,440.5746,193.26214Q474.88318,250,428.88107,298.41731Z;M403.5,294Q372,338,343,393Q314,448,254,435.5Q194,423,138,397.5Q82,372,88,311Q94,250,86,187.5Q78,125,134,95.5Q190,66,253,57Q316,48,362,91.5Q408,135,421.5,192.5Q435,250,403.5,294Z;M460.19079,314.81752Q429.48296,379.63503,366.74655,397.33779Q304.01014,415.04055,238.62673,450.6401Q173.24331,486.23965,141.80231,418.853Q110.3613,351.46635,87.51337,300.73317Q64.66545,250,86.56406,198.80231Q108.46268,147.60462,149.75669,107.39355Q191.05069,67.18248,258.9189,40.41566Q326.7871,13.64883,381.21107,64.45621Q435.63503,115.26359,463.26683,182.63179Q490.89862,250,460.19079,314.81752Z;M439.43806,316.51312Q432.44085,383.02623,370.39398,407.14258Q308.3471,431.25893,240.13979,459.78516Q171.93248,488.31139,132.30301,426.26451Q92.67355,364.21763,63.21484,307.10882Q33.75613,250,44.06194,178.90151Q54.36774,107.80301,118.67355,75.31613Q182.97935,42.82924,240.60882,72.66602Q298.23828,102.50279,368.10882,107.87054Q437.97935,113.23828,442.20731,181.61914Q446.43527,250,439.43806,316.51312Z;M402.82336,294.74662Q372.52122,339.49324,339.45366,380.77461Q306.3861,422.05598,251.70463,416.9165Q197.02317,411.77702,159.66506,377.28619Q122.30695,342.79537,72.75579,296.39768Q23.20463,250,37.88851,178.24662Q52.57238,106.49324,117.0304,72.97924Q181.48842,39.46525,238.53957,73.79537Q295.59073,108.12549,332.49083,135.50917Q369.39092,162.89286,401.2582,206.44643Q433.12549,250,402.82336,294.74662Z;M437.48517,301.93698Q392.82947,353.87396,357.50371,413.21131Q322.17795,472.54867,247.51112,479.51159Q172.8443,486.47452,129.54819,427.64458Q86.25209,368.81464,81.57785,309.40732Q76.90361,250,83.86283,191.93327Q90.82205,133.86654,141.98146,104.152Q193.14087,74.43745,247.01483,83.88926Q300.88878,93.34106,355.51112,113.62234Q410.13346,133.90361,446.13717,191.95181Q482.14087,250,437.48517,301.93698Z;M410.95278,296.31131Q377.83016,342.62262,346.59668,396.40799Q315.3632,450.19336,253.66275,438.70512Q191.9623,427.21687,143.72172,394.79004Q95.48115,362.3632,86.24057,306.1816Q77,250,74.51885,185.3632Q72.0377,120.72639,123.0377,68.91975Q174.0377,17.1131,239.88914,47.47163Q305.74057,77.83016,366.40332,99.75233Q427.06607,121.67451,435.57074,185.83725Q444.0754,250,410.95278,296.31131Z;M469.34657,320.38487Q443.8468,390.76973,373.53877,402.1156Q303.23073,413.46147,238.88463,448.30757Q174.53853,483.15367,122.76833,431.6929Q70.99814,380.23213,76.84563,315.11607Q82.69313,250,78.9227,186.3071Q75.15227,122.6142,131.92223,91.73003Q188.6922,60.84587,253.2305,51.539Q317.7688,42.23213,359.5759,90.92433Q401.383,139.61653,448.11467,194.80827Q494.84633,250,469.34657,320.38487Z;M453.70516,317.0107Q433.36186,384.02139,362.52423,381.146Q291.6866,378.27061,242.8433,399.93801Q194,421.60541,117.08118,412.14317Q40.16237,402.68093,64.29201,326.34046Q88.42165,250,109.0107,206.32693Q129.59975,162.65387,148.64317,78.76495Q167.6866,-5.12397,241.8433,20.74072Q316,46.60541,350.8433,99.17023Q385.6866,151.73505,429.86753,200.86753Q474.04846,250,453.70516,317.0107Z">
+                </animate>
+              </path>
+              <path id="blob" fill="url(#gradient)" style="opacity: 0.43;">
+                <animate attributeName="d" dur="24.8s" repeatCount="indefinite"
+                  values="M410.95278,296.31131Q377.83016,342.62262,346.59668,396.40799Q315.3632,450.19336,253.66275,438.70512Q191.9623,427.21687,143.72172,394.79004Q95.48115,362.3632,86.24057,306.1816Q77,250,74.51885,185.3632Q72.0377,120.72639,123.0377,68.91975Q174.0377,17.1131,239.88914,47.47163Q305.74057,77.83016,366.40332,99.75233Q427.06607,121.67451,435.57074,185.83725Q444.0754,250,410.95278,296.31131Z;M439.43806,316.51312Q432.44085,383.02623,370.39398,407.14258Q308.3471,431.25893,240.13979,459.78516Q171.93248,488.31139,132.30301,426.26451Q92.67355,364.21763,63.21484,307.10882Q33.75613,250,44.06194,178.90151Q54.36774,107.80301,118.67355,75.31613Q182.97935,42.82924,240.60882,72.66602Q298.23828,102.50279,368.10882,107.87054Q437.97935,113.23828,442.20731,181.61914Q446.43527,250,439.43806,316.51312Z;M402.82336,294.74662Q372.52122,339.49324,339.45366,380.77461Q306.3861,422.05598,251.70463,416.9165Q197.02317,411.77702,159.66506,377.28619Q122.30695,342.79537,72.75579,296.39768Q23.20463,250,37.88851,178.24662Q52.57238,106.49324,117.0304,72.97924Q181.48842,39.46525,238.53957,73.79537Q295.59073,108.12549,332.49083,135.50917Q369.39092,162.89286,401.2582,206.44643Q433.12549,250,402.82336,294.74662Z;M469.34657,320.38487Q443.8468,390.76973,373.53877,402.1156Q303.23073,413.46147,238.88463,448.30757Q174.53853,483.15367,122.76833,431.6929Q70.99814,380.23213,76.84563,315.11607Q82.69313,250,78.9227,186.3071Q75.15227,122.6142,131.92223,91.73003Q188.6922,60.84587,253.2305,51.539Q317.7688,42.23213,359.5759,90.92433Q401.383,139.61653,448.11467,194.80827Q494.84633,250,469.34657,320.38487Z;M428.88107,298.41731Q382.87896,346.83463,343.6411,381.94757Q304.40324,417.06052,249.73188,417.66327Q195.06052,418.26602,121.90324,407.33463Q48.74595,396.40324,42.90922,323.20162Q37.07249,250,50.04223,182.03624Q63.01197,114.07249,129.2076,98.49191Q195.40324,82.91133,251.0746,78.83673Q306.74595,74.76214,356.50598,105.64321Q406.26602,136.52427,440.5746,193.26214Q474.88318,250,428.88107,298.41731Z;M437.48517,301.93698Q392.82947,353.87396,357.50371,413.21131Q322.17795,472.54867,247.51112,479.51159Q172.8443,486.47452,129.54819,427.64458Q86.25209,368.81464,81.57785,309.40732Q76.90361,250,83.86283,191.93327Q90.82205,133.86654,141.98146,104.152Q193.14087,74.43745,247.01483,83.88926Q300.88878,93.34106,355.51112,113.62234Q410.13346,133.90361,446.13717,191.95181Q482.14087,250,437.48517,301.93698Z;M423.38828,307.00416Q406.39243,364.00831,353.55217,384.57202Q300.71191,405.13573,242.06787,430.50416Q183.42382,455.87258,116.5554,425.63666Q49.68697,395.40075,58.87581,322.70037Q68.06464,250,86.66067,197.31625Q105.2567,144.63251,148.86843,108.53648Q192.48015,72.44045,252.10019,66.13989Q311.72022,59.83933,378.54063,84.21929Q445.36105,108.59925,442.87258,179.29963Q440.38412,250,423.38828,307.00416Z;M460.19079,314.81752Q429.48296,379.63503,366.74655,397.33779Q304.01014,415.04055,238.62673,450.6401Q173.24331,486.23965,141.80231,418.853Q110.3613,351.46635,87.51337,300.73317Q64.66545,250,86.56406,198.80231Q108.46268,147.60462,149.75669,107.39355Q191.05069,67.18248,258.9189,40.41566Q326.7871,13.64883,381.21107,64.45621Q435.63503,115.26359,463.26683,182.63179Q490.89862,250,460.19079,314.81752Z;M453.70516,317.0107Q433.36186,384.02139,362.52423,381.146Q291.6866,378.27061,242.8433,399.93801Q194,421.60541,117.08118,412.14317Q40.16237,402.68093,64.29201,326.34046Q88.42165,250,109.0107,206.32693Q129.59975,162.65387,148.64317,78.76495Q167.6866,-5.12397,241.8433,20.74072Q316,46.60541,350.8433,99.17023Q385.6866,151.73505,429.86753,200.86753Q474.04846,250,453.70516,317.0107Z;M403.5,294Q372,338,343,393Q314,448,254,435.5Q194,423,138,397.5Q82,372,88,311Q94,250,86,187.5Q78,125,134,95.5Q190,66,253,57Q316,48,362,91.5Q408,135,421.5,192.5Q435,250,403.5,294Z;M410.95278,296.31131Q377.83016,342.62262,346.59668,396.40799Q315.3632,450.19336,253.66275,438.70512Q191.9623,427.21687,143.72172,394.79004Q95.48115,362.3632,86.24057,306.1816Q77,250,74.51885,185.3632Q72.0377,120.72639,123.0377,68.91975Q174.0377,17.1131,239.88914,47.47163Q305.74057,77.83016,366.40332,99.75233Q427.06607,121.67451,435.57074,185.83725Q444.0754,250,410.95278,296.31131Z">
+                </animate>
+              </path>
+            </svg>
+            <img src="assets/illustrations/guy_coding.png" alt="guy coding" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+
+  <!--  THE SKILLS SECTION   -->
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="row text-center">
+        <p class="subheading">Skills</p>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/python.png" alt="Python" title="Python" class="img-fluid">
+            Python
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/react.png" alt="React" title="React" class="img-fluid">
+            React
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/flask.png" alt="Flask" title="Flask" class="img-fluid">
+            Flask
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/javascript.png"" alt=" Javascript" title="Javascript" class="img-fluid">
+            Javascript
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/css.png" alt="CSS" title="CSS" class="img-fluid">
+            CSS
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/html.png" alt="HTML" title="HTML" class="img-fluid">
+            HTML
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/bootstrap.png"" alt=" Bootstrap" title="Bootstrap" class="img-fluid">
+            Bootstrap
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/sql.png"" alt=" SQL" title="SQL" class="img-fluid">
+            SQL
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="logo-box">
+            <img src="assets/skills/git.png"" alt=" GIT" title="GIT" class="img-fluid">
+            GIT
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- The Education Section   -->
+  <section id="education" class="education mb-5">
+    <div class="container">
+      <div class="row text-center">
+        <p class="subheading">Education</p>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+
+    <section class="mb-0 py-3 mx-3 px-5 edu" style="margin:30px; padding:50px;">
+
+      <div class="point1" style="left:0px;padding-right:15%" align="left">
+        <img src="assets/education/one.png" style="width:105px;height:85px" class="grow">
+        <p class="content2">B.Tech in Compute Science and Engineering | National Institute of Technology, Calicut</p>
+        <p class="content3" style="color:#7804d0;">CGPA: 8.37, Batch: 2018-2022</p>
+      </div>
+
+      <br>
+      <hr class="mx-auto my-3 p-2">
+
+
+      <div class="point1" style="right:0px;padding-left:15%" align="right">
+        <img src="assets/education/two.png" style="width:105px;height:85px;float:right" class="grow">
+        <p class="content1">12th/ CBSE board| Indore</p>
+        <p class="content3">Overall 89.2%, 95/100 in Physics,Chemistry and Maths</p>
+      </div>
+
+      <br>
+      <hr class="my-3 p-2">
+
+      <div class="point1" style="left:0px;padding-right:15%" align="left">
+        <img src="assets/education/three.png" style="width:105px;height:85px" class="grow">
+        <p class="content2">10th/ CBSE board| Indore</p>
+        <p class="content3" style="color:#7804d0;">Overall 9.8 CGPA</p>
+      </div>
+
+
+    </section>
+
+  </section>
+
+
+  <!-- THE Achievements Section  -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <div class="row text-center text-white">
+        <h1 class="subheading2">Achievements</h1>
+        <hr style="width: 100px; height: 3px; " class="mx-auto">
+        <p class="lead pt-1">What I have done </p>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators mt-6">
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active achievements_container" data-bs-interval="6000">
+            <div class="achievements_card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Received 3 Manager's spotlight award in 2023 for outstanding performance.
+                <i class="fas fa-quote-right"></i>
+              </p>
+            </div>
+            <!-- <div class="achievements_picture">
+              <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+            </div> -->
+          </div>
+
+
+          <div class="carousel-item achievements_container" data-bs-interval="3000">
+            <div class="achievements_card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Jee Mains 2018 rank : 4259 
+                <i class="fas fa-quote-right"></i>
+              </p>
+            </div>
+            <!-- <div class="achievements_picture">
+              <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+            </div> -->
+          </div>
+
+          <div class="carousel-item achievements_container" data-bs-interval="3000">
+            <div class="achievements_card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Secured 95 marks in Physics, Chemistry and Maths in 12th CBSE board exam.
+                <i class="fas fa-quote-right"></i>
+              </p>
+            </div>
+            <!-- <div class="achievements_picture">
+              <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+            </div> -->
+          </div>
+
+  
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L30,117.3C60,107,120,85,180,90.7C240,96,300,128,360,138.7C420,149,480,139,540,112C600,85,660,43,720,37.3C780,32,840,64,900,74.7C960,85,1020,75,1080,58.7C1140,43,1200,21,1260,21.3C1320,21,1380,43,1410,53.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg> -->
+
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,128L30,117.3C60,107,120,85,180,90.7C240,96,300,128,360,138.7C420,149,480,139,540,112C600,85,660,43,720,37.3C780,32,840,64,900,74.7C960,85,1020,75,1080,58.7C1140,43,1200,21,1260,21.3C1320,21,1380,43,1410,53.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+      </path>
+    </svg>
+
+  </section>
+
+
+  <!-- The Certification Section -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <div class="row text-center">
+        <p class="subheading">Certifications</p>
+        <div class="heading-line mt-1 mb-1"></div>
+        <p class="lead">Just a reflection of my learnings</p>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <!-- ACCORDION ITEM 1 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <b>Responsive Web Design</b> | freeCodeCamp
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <!-- <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                </div>
+              </div>
+            </div>
+            <!-- ACCORDION ITEM 2 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <b>Data Analysis With Python: Zero To Pandas</b> | Jovian.ml
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <!-- <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                </div>
+              </div>
+            </div>
+            <!-- ACCORDION ITEM 3 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <b>Problem Solving(Basic)</b> | HackerRank
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                </div>
+              </div>
+            </div>
+            <!-- ACCORDION ITEM 4 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <b>Programming For Everybody(Getting Started With Python)</b> | Coursera
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Project Section  -->
+
+  <!-- <section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+      <div class="heading-line"></div>
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+      </p>
+    </div>
+    
+    <div class="row mt-5 mb-4 g-3 text-center">
+      <div class="col-md-12">
+        <button class="btn btn-outline-primary" type="button">All</button>
+        <button class="btn btn-outline-primary" type="button">websites</button>
+        <button class="btn btn-outline-primary" type="button">design</button>
+        <button class="btn btn-outline-primary" type="button">mockup</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 1</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 2</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 3</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 4</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 5</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 6</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 7</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 8</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>project name goes here 9</h4>
+              <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+The Get Started Section
+<section id="contact" class="get-started">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+      <div class="heading-line"></div>
+      <p class="lh-lg">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+      </p>
+    </div>
+
+
+    <div class="row text-white">
+      <div class="col-12 col-lg-6 gradient shadow p-3">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+          <p class="lh-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+          </p>
+          <h3 class="display-3--brief">What will be the next step?</h3>
+          <ul class="cta-info__list">
+            <li>We'll prepare the proposal.</li>
+            <li>we'll discuss it together.</li>
+            <li>let's start the discussion.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="form w-100 pb-2">
+          <h4 class="display-3--title mb-5">start your project</h4>
+          <form action="#" class="row">
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+            </div>
+            <div class="text-center d-grid mt-1">
+              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                submit
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                           START SECTION 9 - THE FOOTER  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <!-- CONTENT FOR THE MOBILE NUMBER  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+          </div>
+          <div class="contact-box-info">
+            <a href="#" class="info-title">+91 8770451560</a>
+          </div>
+        </div>
+        <!-- CONTENT FOR EMAIL  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg>
+          </div>
+          <div class="contact-box-info">
+            <a href="#" class="info-title">palashbajpai45@gmail.com</a>
+            <p class="info-subtitle">Mail me on...</p>
+          </div>
+        </div>
+        <!-- CONTENT FOR LOCATION  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box-info">
+            <a href="#" class="info-title">Hyderabad</a>
+            <p class="info-subtitle">Telagana</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--   
+  <div class="footer-sm" style="background-color: #212121;">
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          connect with us on social media
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container mt-5">
+    <div class="row text-white justify-content-center mt-3 pb-3">
+      <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+        <h5 class="text-capitalize fw-bold">Campany name</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <p class="lh-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
+        </p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+        <h5 class="text-capitalize fw-bold">Products</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <ul class="list-inline campany-list">
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+        <h5 class="text-capitalize fw-bold">useful links</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <ul class="list-inline campany-list">
+          <li><a href="#"> Your Account</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">create an account</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+        <h5 class="text-capitalize fw-bold">contact</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <ul class="list-inline campany-list">
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> -->
+
+    <!-- START THE COPYRIGHT INFO  -->
+    <div class="footer-bottom pt-2 pb-4">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-12">
+            <div class="footer-bottom__copyright">
+              &COPY; Copyright 2023 | Created by Palash ❤️
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- BACK TO TOP BUTTON  -->
+  <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+
+
+
+  <script src="assets/vendors/js/glightbox.min.js"></script>
+
+  <script type="text/javascript">
+    const lightbox = GLightbox({
+      'touchNavigation': true,
+      'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+      'type': 'video',
+      'source': 'youtube', 
+      'width': 900,
+      'autoPlayVideos': 'true',
+    });
+
+  </script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
