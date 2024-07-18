@@ -1,8 +1,5 @@
-body{
-    overflow-x: hidden;
-}
 .slider{
-    width: 100%;
+    max-width: 100vw;
     margin: 0 3rem;
     height: var(--height);
     overflow: hidden;
@@ -17,7 +14,7 @@ body{
 .slider .list{
     position: relative;
     display:flex;
-    width: 100%;
+    max-width: 100%;
     min-width: calc(var(--width)*var(--quantity));
     height:15rem;
 }
@@ -31,11 +28,11 @@ body{
 }
 
 .slider .list .item img{
-    width: 30rem;
-    height:20rem;
+    width: 30em;
+    height:20em;
 }
 .slider .list .badge img{
-    width: 22rem;
+    width: 22em;
 }
 
 @keyframes autoRun{
